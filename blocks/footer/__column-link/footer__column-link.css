@@ -1,0 +1,18 @@
+.footer__column-link {
+    /* Нет информации в брифе, куда должны вести ссылки Концепция и Наставники */
+    text-decoration: none;
+    color: white;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.footer__column-link:last-child {
+    margin-bottom: 0;
+}
+
+.footer__column-link:hover {
+    transition:ease-in;
+    opacity: 0.6;
+    transition-duration: 0.3s;
+ }

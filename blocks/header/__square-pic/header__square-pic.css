@@ -1,0 +1,14 @@
+.header__square-pic {
+    top: 64px;
+    width: 568px;
+    height: 568px;
+    position: absolute;
+    right: 0px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-color: #2f80ed;
+    overflow: hidden;
+    animation: rotation linear 20s infinite;
+}
