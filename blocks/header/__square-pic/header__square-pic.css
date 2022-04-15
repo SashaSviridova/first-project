@@ -10,5 +10,5 @@
     z-index: 0;
     background-color: #2f80ed;
     overflow: hidden;
-    animation: rotation linear 20s infinite;
+    /* animation: rotation linear 20s infinite; */
 }
