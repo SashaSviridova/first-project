@@ -1,0 +1,6 @@
+.logo {
+    /* position: absolute; */
+    display: flex;
+    justify-content: flex-start;
+    /* top:30px; */
+}

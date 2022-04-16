@@ -1,0 +1,16 @@
+.footer__column-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    /* flex-basis: 711px; */
+    /* display: block; */
+    /* display: inline-block; */
+    /* padding: 0px 0px 10px; */
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; */
+}
+    
+.footer__column-links:last-child {
+        padding-bottom: 6px;
+}

@@ -1,0 +1,10 @@
+.root {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+  }
+  /* @font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap') format('woff2'),
+         url(https://pictures.s3.yandex.net/fonts/Ibmplexserif.woff) format('woff'),
+         url(https://pictures.s3.yandex.net/fonts/Ibmplexserif.ttf) format('truetype');
+    font-family: 'Inter';
+    font-weight: normal;
+} */

@@ -1,0 +1,15 @@
+.footer__column_list-item:hover {
+    transition:ease-in;
+    opacity: 0.6;
+    transition-duration: 0.3s;
+}
+
+.footer__column_list-item {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
