@@ -291,9 +291,16 @@
                         <h3 class="footer__column-heading">О Практикуме</h3>
                         <nav>
                             <ul class="footer__column-links">
-                                <li class="footer__column_list-item"><a href="https://practicum.yandex.ru/profile/web-plus/" target="_blank" class="footer__column-link">Главная</a></li>
-                                <li class="footer__column_list-item"><a href="#" target="_blank" class="footer__column-link">Концепция</a></li>
-                                <li class="footer__column_list-item"><a href="#" target="_blank" class="footer__column-link">Наставники</a></li>
+                                <!-- Здравствуйте, Сергей. Поискала ин-цию по данному вопросу. 
+                                    Нашла комментарий нашего наставника, где сказано, 
+                                    что класс для li прописывать не нужно, 
+                                    потому что отступ нужен только для ссылки. 
+                                    А li в нашем случае просто является контейнером для элемента списка.
+                                    Т. е., в теории, его можно просто удалить? 
+                                    (И добавить display:block в footer__column-link, чтобы ссылка отступы давала.)-->
+                                <li class="footer__column-list-item"><a href="https://practicum.yandex.ru/profile/web-plus/" target="_blank" class="footer__column-link">Главная</a></li>
+                                <li class="footer__column-list-item"><a href="#" target="_blank" class="footer__column-link">Концепция</a></li>
+                                <li class="footer__column-list-item"><a href="#" target="_blank" class="footer__column-link">Наставники</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -301,13 +308,13 @@
                         <h3 class="footer__column-heading">Соцсети</h3>
                         <nav>
                             <ul class="footer__column-links">
-                                <li class="footer__column_list-item">
+                                <li class="footer__column-list-item">
                                     <a href="https://www.facebook.com/yandex.praktikum" target="_blank" class="footer__column-link"> <img src="./images/facebook_color_white.svg" alt="Facebook" class="footer__social-icon" />Facebook</a>
                                 </li>
-                                <li class="footer__column_list-item">
+                                <li class="footer__column-list-item">
                                     <a href="https://vk.com/yandex.praktikum" target="_blank" class="footer__column-link"> <img src="./images/vk_color_white.svg" alt="Вконтакте" class="footer__social-icon" />Вконтакте</a>
                                 </li>
-                                <li class="footer__column_list-item">
+                                <li class="footer__column-list-item">
                                     <a href="#" target="_blank" class="footer__column-link"> <img src="./images/instagram_color_white.svg" alt="Instagram" class="footer__social-icon" />Instagram</a>
                                 </li>
                             </ul>

@@ -1,17 +1,15 @@
-.footer__column-link:hover {
+.footer__column-list-item:hover {
     transition:ease-in;
     opacity: 0.6;
     transition-duration: 0.3s;
- }
- 
-.footer__column-link {
-    /* display: block; */
+}
+
+.footer__column-list-item {
     text-decoration: none;
     list-style-type: none;
     color: white;
     line-height: 18px;
     font-size: 18px;
     font-weight: normal;
-    /* margin-bottom: 10px; */
-    /* padding: 0 0 10px; */
-    /* margin: 0; */
+    margin-bottom: 10px;
+}
